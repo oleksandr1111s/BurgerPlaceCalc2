@@ -11,8 +11,8 @@ public class BurgerPlaceApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(BurgerPlaceApp.class.getResource("burger-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load(), 400, 600);
+        stage.setTitle("Калькулятор вибору бургера");
         stage.setScene(scene);
         stage.show();
     }
