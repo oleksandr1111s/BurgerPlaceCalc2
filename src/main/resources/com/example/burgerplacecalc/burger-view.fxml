@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="408.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="619.0" prefWidth="415.0">
          <children>
@@ -35,7 +35,7 @@
             <TextField fx:id="countOfMeatballField2" layoutX="131.0" layoutY="417.0" promptText="Кількість м'яса" />
             <TextField fx:id="diameterField1" layoutX="131.0" layoutY="148.0" promptText="Діаметр" />
             <TextField fx:id="diameterField2" layoutX="131.0" layoutY="443.0" promptText="Діаметр" />
-            <Button layoutX="160.0" layoutY="478.0" mnemonicParsing="false" text="Порівняти">
+            <Button fx:id="resultLabel" layoutX="160.0" layoutY="478.0" mnemonicParsing="false" styleClass="background" text="Порівняти">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
